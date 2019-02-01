@@ -1,0 +1,5 @@
+alias ll='ls -las'
+alias ld='ls -d'
+alias ..='cd ..'
+alias ...='cd ../..'
+

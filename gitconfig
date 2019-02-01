@@ -1,0 +1,24 @@
+[user]
+	name = Dom Farr
+	email = domfarr@policyexpert.co.uk
+
+[help]
+	autocorrect = 1
+
+[core]
+	editor = vi
+	excludesfile = ~/.gitignore_global
+
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+        unstage = reset HEAD --
+        last = log -1 HEAD
