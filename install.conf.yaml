@@ -12,3 +12,4 @@
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.alias_profile:
+    ~/git-completion.bash: 'git-completion.bash'
