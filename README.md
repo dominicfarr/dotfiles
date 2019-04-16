@@ -7,6 +7,12 @@ multiple times.
 
 Dotfiles uses [Dotbot][dotbot] for installation.
 
+Post executing `install` some errors will occur due to missing files or installations.
+* .nessie
+* .qmg_encrpt
+* /usr/local/bin/virtualenvwrapper.sh
+
 
 [dotbot]: https://github.com/anishathalye/dotbot
 [license]: LICENSE.md
+
