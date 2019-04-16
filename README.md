@@ -13,9 +13,9 @@ Post executing `install` some errors will occur due to missing files.
 
 Also required:
 
-git bash auto complete
+git prompt
 
-`brew install bash-completion@2`
+`brew install bash-git-prompt`
 
 Installation of python virtual env
 ```
