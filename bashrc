@@ -11,4 +11,3 @@ export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
 export METRICS_HOST=metrics-relay.dev.qmetric.co.uk
 export METRICS_PORT=2003
 export METRICS_NAMESPACE=dfarr
-ssh-add
