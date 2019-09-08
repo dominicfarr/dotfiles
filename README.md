@@ -26,6 +26,9 @@ pip install virtualenv
 pip install virtualenvwrapper
 ```
 
+JDKs required
+jenv
+config JDKs in jenv
 
 
 [dotbot]: https://github.com/anishathalye/dotbot
