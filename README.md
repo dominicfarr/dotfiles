@@ -27,7 +27,9 @@ pip install virtualenvwrapper
 ```
 
 JDKs required
+
 jenv
+
 config JDKs in jenv
 
 
