@@ -8,3 +8,4 @@ export PATH=/usr/local/sbin:$PATH
 export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
 export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"
 export PATH="/Application/jmeter/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH""
