@@ -9,3 +9,7 @@ export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
 export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"
 export PATH="/Application/jmeter/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+# added by travis gem
+[ -f /Users/dfarr/.travis/travis.sh ] && source /Users/dfarr/.travis/travis.sh
