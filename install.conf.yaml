@@ -6,8 +6,8 @@
 - clean: ['~']
 
 - link:
-    ~/.bash_profile:
-    ~/.bashrc:
+    ~/.zshrc:
+    ~/.zshenv:
     ~/.dotfiles: ''
     ~/.gitconfig:
     ~/.gitignore_global:
