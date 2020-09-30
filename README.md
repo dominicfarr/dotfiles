@@ -8,14 +8,12 @@ multiple times.
 Dotfiles uses [Dotbot][dotbot] for installation.
 
 Post executing `install` some errors will occur due to missing files.
-* .nessie
-* .qmg_encrpt
 
 Also required:
 
 git prompt
 
-`brew install bash-git-prompt`
+`brew install zsh-git-prompt`
 
 Installation of python virtual env
 ```
@@ -26,7 +24,7 @@ pip install virtualenv
 pip install virtualenvwrapper
 ```
 
-JDKs required
+Java? JDKs required
 
 jenv
 
