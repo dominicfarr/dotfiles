@@ -14,6 +14,6 @@ source .alias_profile
 [ -f /Users/dfarr/.travis/travis.sh ] && source /Users/dfarr/.travis/travis.sh
 
 export PATH=/usr/local/sbin:$PATH
-expert PATH=~/development/flutter/bin
+export PATH=~/development/flutter/bin
 source "/usr/local/opt/zsh-git-prompt/zshrc.sh"
 PROMPT='%B%m%~%b$(git_super_status) %# '
