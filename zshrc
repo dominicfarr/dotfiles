@@ -4,7 +4,6 @@ source .alias_profile
 # export WORKON_HOME=~/pvenvs
 # source /usr/local/bin/virtualenvwrapper.sh
 # export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-export PATH=/usr/local/sbin:$PATH
 # export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
 # export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"
 # export PATH="/Application/jmeter/bin:$PATH"
@@ -14,5 +13,7 @@ export PATH=/usr/local/sbin:$PATH
 # added by travis gem
 [ -f /Users/dfarr/.travis/travis.sh ] && source /Users/dfarr/.travis/travis.sh
 
+export PATH=/usr/local/sbin:$PATH
+expert PATH=~/development/flutter/bin
 source "/usr/local/opt/zsh-git-prompt/zshrc.sh"
 PROMPT='%B%m%~%b$(git_super_status) %# '
