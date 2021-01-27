@@ -22,3 +22,4 @@ export PATH="$PATH:/Applications/Utilities/"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /Applications/Utilities/terraform terraform
+autoload -Uz compinit && compinit
