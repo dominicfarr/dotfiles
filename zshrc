@@ -1,16 +1,4 @@
-source .alias_profile
-# export PATH=$PATH:/opt/gradle/gradle-5.2.1/bin
-# source ~/git-completion.bash
-# export WORKON_HOME=~/pvenvs
-# source /usr/local/bin/virtualenvwrapper.sh
-# export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-# export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
-# export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"
-# export PATH="/Application/jmeter/bin:$PATH"
-# export PATH="/usr/local/opt/ruby/bin:$PATH"
-# export PATH="$HOME/.rbenv/bin:$PATH"
-
-# added by travis gem
+source ~/.alias_profile
 [ -f /Users/dfarr/.travis/travis.sh ] && source /Users/dfarr/.travis/travis.sh
 
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
@@ -21,5 +9,8 @@ PROMPT='%B%m%~%b$(git_super_status) %# '
 export PATH="$PATH:/Applications/Utilities/"
 
 autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /Applications/Utilities/terraform terraform
 autoload -Uz compinit && compinit
+complete -o nospace -C /usr/local/bin/terraform terraform
+
+# Added by Amplify CLI binary installer
+export PATH="$HOME/.amplify/bin:$PATH"
